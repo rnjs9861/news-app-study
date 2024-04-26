@@ -1,27 +1,3 @@
-# 프로젝트 생성
-
--`npx create-react-app ./`
-
--`npm install normalize.css` 이걸로 깔지 index에서 import 할지는 알아서 해
-
--`npm install @emotion/react`
-
--`npm install @emotion/styled`
-
-- .prettierrc.json
-
-```json
-
-```
-
-- `npm install eslint --dev`
-- `npm install eslint-config-react-app --save-dev`
-- `npx eslint --init`
-- `npm install eslint-config-prettier --save-dev`
-
--.eslintrc.js
-
-```js
 module.exports = {
   env: {
     browser: true,
@@ -51,8 +27,3 @@ module.exports = {
     "no-unused-vars": "off",
   },
 };
-```
-
-- `npm install @babel/plugin-proposal-private-property-in-object --dev`
-
-- `npm install react-router-dom`
